@@ -1,0 +1,7 @@
+baseURL = 'https://ryankerry.com/'
+languageCode = 'en-gb'
+title = 'Ryan Kerry'
+
+[module]
+  [[module.imports]]
+    path = "github.com/nanxiaobei/hugo-paper"
