@@ -9,7 +9,6 @@ jobs:
         submodules: true
     - uses: ryank90/action-hugo-firebase-deploy@master
       with:
-        firebaseToken: ${{ secrets.firebase_token }}
         firebaseServiceAccount: ${{ secrets.firebase_service_account }}
         projectId: ${{ secrets.firebase_project_name }}
         hugoParams: -D
