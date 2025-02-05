@@ -11,5 +11,4 @@ jobs:
       with:
         firebase-project: ${{ secrets.firebase_project_name }}
         firebase-token: ${{ secrets.firebase_token }}
-        alias: ${{ alias }}
         hugo-params: -D
