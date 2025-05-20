@@ -1,4 +1,4 @@
-:root {
+:root.light {
   --default-color: #555;
   --background-color: #fff;
   --default-shade: #353535;
@@ -13,7 +13,7 @@
   --code-color: #bf616a;
   --code-filter: ; }
 
-.dark {
+:root:not(.light) {
   --default-color: #888;
   --background-color: #000;
   --default-shade: #989898;
@@ -435,6 +435,15 @@ footer,
   margin: 0 auto;
   max-width: 800px;
   width: 80%; }
+
+#darkModeToggle {
+  float: right;
+  position: sticky;
+  top: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  cursor: pointer; }
 
 .nav {
   box-shadow: 0 2px 2px -2px var(--shadow-color);
