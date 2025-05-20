@@ -8,7 +8,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        submodules: true
+        submodules: recursive
+        fetch-depth: 0
     - uses: ryank90/action-hugo-firebase-deploy@6181d7b6c3158bddd49d3911dcf8c9bb8426109e #v2.0.1
       with:
         firebaseServiceAccount: ${{ secrets.firebase_service_account }}
