@@ -2,4 +2,27 @@ baseURL = 'https://ryankerry-fe51d.web.app/'
 languageCode = 'en-gb'
 title = 'Ryan Kerry'
 
-theme = 'paper'
+googleAnalytics = ""
+disqusShortname = ""
+
+theme = 'tale'
+
+[permalinks]
+    post = "/posts/:title/"
+    page = "/:title/"
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        title = "About"
+        url = "/about/"
+    [[menu.main]]
+        name = "GitHub"
+        url = "https://github.com/Ryank90"
+    [[menu.main]]
+        name = "Twitter"
+        url = "https://twitter.com/RyanKerry1"
+
+[params]
+    paginate = 5
