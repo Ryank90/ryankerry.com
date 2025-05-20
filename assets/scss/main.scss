@@ -1,0 +1,71 @@
+@import 'tale/variables';
+@import 'tale/base';
+@import 'tale/code';
+@import 'tale/post';
+@import 'tale/syntax';
+@import 'tale/layout';
+@import 'tale/toc';
+@import 'tale/pagination';
+@import 'tale/catalogue';
+@import 'tale/disqus';
+
+// Override dark mode styles
+:root {
+    --bg-color: #f4f4f5;
+    --text-color: #2c3e50;
+    --secondary-text-color: #606060;
+    --primary-color: #2c3e50;
+    --border-color: #e5e7eb;
+    --code-bg-color: #f8f8f8;
+    --blockquote-bg-color: #f8f8f8;
+    --blockquote-border-color: #e5e7eb;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+// Hide dark mode toggle
+.dark-mode-toggle {
+    display: none !important;
+}
+
+// Override dark mode classes
+.dark-mode {
+    --bg-color: #f4f4f5 !important;
+    --text-color: #2c3e50 !important;
+    --secondary-text-color: #606060 !important;
+    --primary-color: #2c3e50 !important;
+    --border-color: #e5e7eb !important;
+    --code-bg-color: #f8f8f8 !important;
+    --blockquote-bg-color: #f8f8f8 !important;
+    --blockquote-border-color: #e5e7eb !important;
+}
+
+// Ensure code blocks maintain light theme
+pre, code {
+    background-color: var(--code-bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+// Ensure blockquotes maintain light theme
+blockquote {
+    background-color: var(--blockquote-bg-color) !important;
+    border-left-color: var(--blockquote-border-color) !important;
+    color: var(--text-color) !important;
+}
+
+// Ensure links maintain light theme colors
+a {
+    color: var(--primary-color) !important;
+    &:hover {
+        color: darken(#2c3e50, 10%) !important;
+    }
+}
+
+// Make catalogue title text black
+.post-title,
+.catalogue-title {
+    color: #000000 !important;
+} 

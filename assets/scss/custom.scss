@@ -1,0 +1,51 @@
+// Override dark mode styles to always use light theme
+html {
+    background-color: #fff !important;
+}
+
+body {
+    background-color: #fff !important;
+    color: #555 !important;
+}
+
+:root {
+    --default-color: #555 !important;
+    --background-color: #fff !important;
+    --default-shade: #353535 !important;
+    --default-tint: #aaa !important;
+    --grey-1: #979797 !important;
+    --grey-2: #e5e5e5 !important;
+    --grey-3: #f0f0f0 !important;
+    --grey-4: #f9f9f9 !important;
+    --white: #fff !important;
+    --blue: #4a9ae1 !important;
+    --shadow-color: rgba(0, 0, 0, .2) !important;
+    --code-color: #bf616a !important;
+    --code-filter: none !important;
+}
+
+// Hide dark mode toggle
+#darkModeToggle {
+    display: none !important;
+}
+
+// Override any dark mode classes
+.dark-mode,
+.dark,
+[data-theme="dark"] {
+    --default-color: #555 !important;
+    --background-color: #fff !important;
+    --default-shade: #353535 !important;
+    --default-tint: #aaa !important;
+    --grey-1: #979797 !important;
+    --grey-2: #e5e5e5 !important;
+    --grey-3: #f0f0f0 !important;
+    --grey-4: #f9f9f9 !important;
+    --white: #fff !important;
+    --blue: #4a9ae1 !important;
+    --shadow-color: rgba(0, 0, 0, .2) !important;
+    --code-color: #bf616a !important;
+    --code-filter: none !important;
+    background-color: #fff !important;
+    color: #555 !important;
+} 

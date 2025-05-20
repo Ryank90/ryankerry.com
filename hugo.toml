@@ -26,3 +26,6 @@ theme = 'tale'
 
 [params]
     paginate = 5
+
+[params.Author]
+    name = "Ryan Kerry"
