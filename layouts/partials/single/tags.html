@@ -1,0 +1,7 @@
+{{ if .Params.tags }}
+<div class="post-tags">
+    {{ range .Params.tags }}
+    <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="post-tag">{{ strings.FirstUpper . }}</a>
+    {{ end }}
+</div>
+{{ end }} 

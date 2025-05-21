@@ -78,4 +78,35 @@ a {
         color: #000000 !important;
         opacity: 0.8 !important;
     }
+}
+
+// Post tags styling
+.post-tags {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.post-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: var(--primary-color);
+    color: white !important;
+    border-radius: 3px;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+        opacity: 0.8;
+        color: white !important;
+    }
+}
+
+// Tag page styling
+.taxonomy-title {
+    color: #000000 !important;
+    margin-top: 40px;
 } 
