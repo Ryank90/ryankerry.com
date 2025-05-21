@@ -68,4 +68,14 @@ a {
 .post-title,
 .catalogue-title {
     color: #000000 !important;
+}
+
+// Make nav title black
+.nav-title {
+    color: #000000 !important;
+    &:hover,
+    &:focus {
+        color: #000000 !important;
+        opacity: 0.8 !important;
+    }
 } 
