@@ -1,12 +1,19 @@
 {{ define "main" }}
 
 <main>
-    {{ partial "toc.html" . }}
+    {{ if eq .Type "post" }}
+        {{ partial "toc.html" . }}
+    {{ end }}
 
     <div class="post">
-        {{ partial "single/post-info.html" . }}
-        {{ partial "single/title.html" . }}
-        {{ partial "single/tags.html" . }}
+        {{ if eq .Type "post" }}
+            {{ partial "single/post-info.html" . }}
+        {{ end }}
+        <h1 class="post-title">{{ .Title }}</h1>
+        <div class="post-line"></div>
+        {{ if eq .Type "post" }}
+            {{ partial "single/tags.html" . }}
+        {{ end }}
 
         {{ partial "single/header.html" . }}
 
@@ -15,6 +22,7 @@
         {{ partial "single/footer.html" . }}
     </div>
 
+    {{ if eq .Type "post" }}
     <div class="pagination">
         {{- if .Page.Prev }}
         <a href="{{ .Page.Prev.RelPermalink }}" class="left arrow">&#8592;</a>
@@ -25,6 +33,7 @@
 
         <a href="#" class="top">Top</a>
     </div>
+    {{ end }}
 </main>
 
 {{ end }} 

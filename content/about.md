@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Hey! 👋"
 type: "page"
 date: 2025-02-15T10:17:57+01:00
 draft: false
@@ -18,4 +18,4 @@ I've been known to stand in front of large groups of people, pace back and forth
 - X
 - X
 - X
-- X
+- X 
