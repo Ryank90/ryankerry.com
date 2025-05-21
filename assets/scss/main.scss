@@ -108,5 +108,32 @@ a {
 // Tag page styling
 .taxonomy-title {
     color: #000000 !important;
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+// Pagination styling
+.pagination {
+    text-align: center;
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    span {
+        color: var(--text-color);
+        font-size: 0.9rem;
+        margin: 0 1rem;
+    }
+    
+    .arrow {
+        color: var(--text-color);
+        text-decoration: none;
+        font-size: 1.2rem;
+        margin: 0 1rem;
+        
+        &:hover {
+            opacity: 0.8;
+        }
+    }
 } 

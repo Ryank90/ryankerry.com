@@ -3,20 +3,21 @@
 <main>
 	<div class="catalogue">
 		{{ $posts := where .Site.RegularPages "Section" "posts" }}
-		{{ range (.Paginate $posts).Pages }}
+		{{ $paginator := .Paginate $posts .Site.Params.paginate }}
+		{{ range $paginator.Pages }}
 			{{ .Render "summary" }}
 		{{ end }}
 	</div>
 
 	<div class="pagination">
-		{{ if .Paginator.HasPrev }}
-			<a href="{{ .Paginator.Prev.URL }}" class="left arrow">&#8592;</a>
+		{{ if $paginator.HasPrev }}
+			<a href="{{ $paginator.Prev.URL }}" class="left arrow">&#8592;</a>
 		{{ end }}
-		{{ if .Paginator.HasNext }}
-			<a href="{{ .Paginator.Next.URL }}" class="right arrow">&#8594;</a>
+		{{ if $paginator.HasNext }}
+			<a href="{{ $paginator.Next.URL }}" class="right arrow">&#8594;</a>
 		{{ end }}
 
-		<span>{{ .Paginator.PageNumber }}</span>
+		<span>Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
 	</div>
 </main>
 
