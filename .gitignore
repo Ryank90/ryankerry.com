@@ -3,3 +3,7 @@ public/
 resources
 .firebase
 .hugo_build.lock
+node_modules/
+scripts/
+package-lock.json
+package.json
