@@ -66,11 +66,36 @@ blockquote {
     color: var(--text-color) !important;
 }
 
-// Ensure links maintain light theme colors
-a {
-    color: var(--primary-color) !important;
-    &:hover {
-        color: darken(#2c3e50, 10%) !important;
+// Post page specific styles
+.post {
+    .post-info {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #666;
+        font-family: var(--font-sans);
+        
+        span {
+            font-style: normal;
+        }
+    }
+
+    .post-tags {
+        text-align: center;
+        margin: 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    // Link styling scoped to post content
+    a {
+        text-decoration: underline;
+        color: #000;
+        
+        &:hover {
+            color: #666;
+        }
     }
 }
 
@@ -103,7 +128,8 @@ a {
     justify-content: center;
 }
 
-.post-tag {
+.post-tag,
+.post .post-tag {
     display: inline-block;
     padding: 0.25rem 0.75rem;
     background-color: var(--primary-color);
@@ -111,11 +137,19 @@ a {
     border-radius: 3px;
     font-size: 0.875rem;
     text-decoration: none;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease, text-decoration 0.2s ease;
 
     &:hover {
         opacity: 0.8;
         color: white !important;
+    }
+
+    a {
+        text-decoration: none !important;
+
+        &:hover {
+            text-decoration: underline !important;
+        }
     }
 }
 
@@ -145,6 +179,51 @@ a {
         text-decoration: none;
         font-size: 1.2rem;
         margin: 0 1rem;
+        
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+// Bullet point spacing
+ul li {
+    margin-bottom: 15px;
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+// Navigation styling
+.nav {
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-title {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--default-color);
         
         &:hover {
             opacity: 0.8;

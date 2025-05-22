@@ -32,6 +32,7 @@ theme = 'tale'
 
 [params]
     paginate = 5
+    css = ["css/custom.css"]
 
 [params.Author]
     name = "Ryan Kerry"

@@ -1,28 +1,44 @@
 {{ define "main" }}
 
 <main>
-    {{ if eq .Type "post" }}
+    {{ if eq .Type "posts" }}
         {{ partial "toc.html" . }}
     {{ end }}
 
     <div class="post">
-        {{ if eq .Type "post" }}
-            {{ partial "single/post-info.html" . }}
+        {{ if eq .Type "posts" }}
+            <div class="post-info">
+                <span>Written by </span>
+                {{- if .Params.Author }}
+                    {{ .Params.Author }}
+                {{- else }}
+                    {{ .Site.Params.Author.name }}
+                {{- end }}
+
+                {{- if .PublishDate }}
+                    <br>
+                    <span>on </span><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+                {{- end }}
+            </div>
         {{ end }}
+
         <h1 class="post-title">{{ .Title }}</h1>
         <div class="post-line"></div>
-        {{ if eq .Type "post" }}
-            {{ partial "single/tags.html" . }}
+
+        {{ if eq .Type "posts" }}
+            {{ if .Params.tags }}
+            <div class="post-tags">
+                {{ range .Params.tags }}
+                <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="post-tag">{{ strings.FirstUpper . }}</a>
+                {{ end }}
+            </div>
+            {{ end }}
         {{ end }}
 
-        {{ partial "single/header.html" . }}
-
         {{ .Content }}
-
-        {{ partial "single/footer.html" . }}
     </div>
 
-    {{ if eq .Type "post" }}
+    {{ if eq .Type "posts" }}
     <div class="pagination">
         {{- if .Page.Prev }}
         <a href="{{ .Page.Prev.RelPermalink }}" class="left arrow">&#8592;</a>

@@ -49,3 +49,44 @@ body {
     background-color: #fff !important;
     color: #555 !important;
 }
+
+// Link styling
+a {
+  text-decoration: underline;
+  color: #000;
+  
+  &:hover {
+    color: #666;
+  }
+}
+
+// Bullet point spacing
+ul li {
+  margin-bottom: 15px;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Post page specific styles
+.post {
+  .post-tags {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .post-meta {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #666;
+    
+    .post-author {
+      font-weight: 500;
+    }
+    
+    .post-date {
+      margin-left: 1rem;
+    }
+  }
+}
