@@ -1,5 +1,5 @@
 ---
-title: "Farewell Unity, hello EFG"
+title: "Farewell Unity, hello EFG!"
 date: 2023-06-07T12:06:36+01:00
 type: "posts"
 draft: false
