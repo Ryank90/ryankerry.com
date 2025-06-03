@@ -31,7 +31,7 @@ theme = 'tale'
             rel = "noopener"
 
 [params]
-    paginate = 5
+    paginate = 8
     css = ["css/custom.css"]
 
 [params.Author]
