@@ -41,7 +41,6 @@ theme = 'tale'
 
 [params]
     paginate = 8
-    frontPageSummary = "Hey folks, I am Ryan - I am a software engineering leader, currently serving as VP of Infrastructure at ESL FACEIT Group, where I lead teams across infrastructure, security, and reliability. This blog is my digital brain dump: expect thoughts on technical leadership, infrastructure strategy, AI in engineering orgs, and lessons from the edge of scale."
 
 [params.Author]
     name = "Ryan Kerry"

@@ -6,7 +6,7 @@
 			<img src="{{ "images/Next4.webp" | relURL }}" alt="Ryan Kerry" class="circular-image">
 		</div>
 		<div class="profile-summary">
-			<p>{{ .Site.Params.frontPageSummary }}</p>
+			{{ partial "front-page-summary.html" . }}
 		</div>
 	</div>
 
