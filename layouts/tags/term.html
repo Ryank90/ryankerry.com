@@ -1,0 +1,28 @@
+{{ define "main" }}
+<main>
+    <div class="post term-item">
+        <h1 class="post-title">Tag: {{ .Title }}</h1>
+        <div class="post-line"></div>
+    </div>
+
+    <div class="catalogue">
+        {{ range .Pages.ByDate.Reverse }}
+            <a href="{{ .Permalink }}" class="catalogue-item">
+                <div>
+                    <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ .Date.Format "2006-01-02" }}</time>
+                    <h2 class="catalogue-title">{{ .Title }}</h2>
+                    <div class="catalogue-line"></div>
+
+                    <p>
+                        {{ if isset .Params "summary" }}{{ .Params.Summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}
+                    </p>
+                </div>
+            </a>
+        {{ end }}
+    </div>
+
+    <div class="pagination">
+        {{ partial "pagination.html" . }}
+    </div>
+</main>
+{{ end }} 

@@ -22,7 +22,7 @@
             </div>
         {{ end }}
 
-        {{ if eq .Type "posts" }}
+        {{ if or (eq .Type "posts") (eq .Type "tags") }}
         <h1 class="post-title">{{ .Title }}</h1>
         <div class="post-line"></div>
         {{ end }}
