@@ -8,6 +8,16 @@ body {
     color: #555 !important;
 }
 
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
 :root {
     --default-color: #555 !important;
     --background-color: #fff !important;
@@ -50,49 +60,131 @@ body {
     color: #555 !important;
 }
 
-// Link styling
-a {
-  text-decoration: underline;
-  color: #000;
-  
-  &:hover {
-    color: #666;
+// Navigation styling
+.nav {
+  &-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
   }
+
+  &-title {
+      margin: 0;
+      padding: 0;
+  }
+
+  ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+  }
+
+  li {
+      margin: 0;
+      padding: 0;
+  }
+
+  a {
+      text-decoration: none;
+      color: var(--default-color);
+      
+      &:hover {
+          opacity: 0.8;
+      }
+  }
+}
+
+// Tag page styling
+.taxonomy-title {
+  color: #000000 !important;
+  margin-top: 40px;
+}
+
+// Link styling for content
+.post {
+    a {
+        text-decoration: underline;
+        color: #000;
+        
+        &:hover {
+            color: #666;
+        }
+    }
+
+    .post-title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .post-tags {
+        text-align: center;
+        margin: 2rem 0;
+
+        a {
+            display: inline-block;
+            margin: 0 0.5rem;
+            padding: 0.25rem 0.75rem;
+            background-color: var(--grey-3);
+            border-radius: 3px;
+            text-decoration: none;
+            color: var(--default-color);
+            font-size: 0.9rem;
+
+            &:hover {
+                background-color: var(--grey-2);
+                color: var(--default-shade);
+            }
+        }
+    }
+    
+    .post-meta {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #666;
+        
+        .post-author {
+            font-weight: 500;
+        }
+        
+        .post-date {
+            margin-left: 1rem;
+        }
+    }
+
+    hr {
+        margin-top: 30px;
+    }
+}
+
+// About page styling
+.about-page {
+    .post-content {
+        img {
+            margin: 2rem 0;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+// Catalogue item styling
+.catalogue-item {
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 // Bullet point spacing
 ul li {
-  margin-bottom: 15px;
-  
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-
-// Post page specific styles
-.post {
-  .post-tags {
-    text-align: center;
-    margin: 2rem 0;
-  }
-  
-  .post-meta {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #666;
+    margin-bottom: 15px;
     
-    .post-author {
-      font-weight: 500;
+    &:last-child {
+        margin-bottom: 0;
     }
-    
-    .post-date {
-      margin-left: 1rem;
-    }
-  }
-
-  hr {
-    margin-top: 30px;
-  }
 }
 
 .front-page-intro {
@@ -132,26 +224,39 @@ ul li {
 }
 
 .pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 2rem;
-    padding: 1rem;
+  text-align: center;
+  margin: 2rem auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  span {
+      color: var(--text-color);
+      font-size: 0.9rem;
+      margin: 0 1rem;
+  }
+  
+  .arrow {
+      color: var(--text-color);
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin: 0 1rem;
+      
+      &:hover {
+          opacity: 0.8;
+      }
+  }
+}
 
-    .arrow {
-        font-size: 1.5rem;
-        text-decoration: none;
-        color: var(--primary);
-
-        &:hover {
-            color: var(--primary-dark);
-        }
-    }
-
-    span {
-        color: var(--text-secondary);
-    }
+// Make nav title black
+.nav-title {
+  color: #000000 !important;
+  &:hover,
+  &:focus {
+      color: #000000 !important;
+      opacity: 0.8 !important;
+  }
 }
 
 .tags-list {
@@ -204,5 +309,10 @@ ul li {
 
     .post-line {
         display: none;
+    }
+
+    .post-title {
+      text-align: left;
+      font-size: 2rem;
     }
 }

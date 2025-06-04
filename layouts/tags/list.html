@@ -12,7 +12,7 @@
             <div class="tag-posts">
                 {{ range .Pages }}
                 <div class="tag-post">
-                    <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+                    <time datetime="{{ .PublishDate }}" class="post-date">{{ i18n "publishdate" . }}</time>
                     <a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a>
                 </div>
                 {{ end }}

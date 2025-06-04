@@ -9,7 +9,7 @@
         {{ range .Pages.ByDate.Reverse }}
             <a href="{{ .Permalink }}" class="catalogue-item">
                 <div>
-                    <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ .Date.Format "2006-01-02" }}</time>
+                    <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>
                     <h2 class="catalogue-title">{{ .Title }}</h2>
                     <div class="catalogue-line"></div>
 
