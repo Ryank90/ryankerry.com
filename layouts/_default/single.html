@@ -22,8 +22,10 @@
             </div>
         {{ end }}
 
+        {{ if eq .Type "posts" }}
         <h1 class="post-title">{{ .Title }}</h1>
         <div class="post-line"></div>
+        {{ end }}
 
         {{ if eq .Type "posts" }}
             {{ if .Params.tags }}

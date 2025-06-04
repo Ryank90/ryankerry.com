@@ -33,6 +33,7 @@ theme = 'tale'
 [params]
     paginate = 8
     css = ["css/custom.css"]
+    frontPageSummary = "Hey folks, I am Ryan - I am a software engineering leader, currently serving as VP of Infrastructure at ESL FACEIT Group, where I lead teams across infrastructure, security, and reliability."
 
 [params.Author]
     name = "Ryan Kerry"

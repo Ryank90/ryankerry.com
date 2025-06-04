@@ -28,9 +28,11 @@ If you're scaling and could use a fresh perspective or a critical friend on your
 
 I enjoy stepping on stage and unpacking complex ideas with energy and a bit of humour. Here are a few highlights:
 
-- **March, 2024:** Game Developer Network - Cloudflare XXX.
-- X.
-- X.
-- **April, 2017:** Google Next London (Keynote & sessions) - 22 Day Lush Migration to the cloud.
+- **March, 2024:** Game Developer Network (GDC): Cloudflare XXX.
+- **XX, 20XX:** Google Lighthouse - London: XXX.
+- **XX, 20XX:** Retail Expo - London (Session): XX.
+- **March, 2018:** Google Next - San Francisco (Keynote): XXX.
+- **April, 2017:** Google Next - London (Session): XXXX.
+- **April, 2017:** Google Next - London (Keynote): 22 Day Lush Migration to the cloud.
 
 More to come. I tend to say yes when the topic is right and the tea is good.
