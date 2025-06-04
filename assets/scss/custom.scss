@@ -262,11 +262,11 @@ ul li {
 .tags-list {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 0 0 2rem 0;
 }
 
 .tag-section {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .tag-title {
@@ -303,6 +303,7 @@ ul li {
     }
 }
 
+.term-list,
 .term-item {
     padding-top: 3rem;
     padding-bottom: 0rem;

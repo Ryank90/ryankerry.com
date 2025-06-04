@@ -17,7 +17,7 @@
 
                 {{- if .PublishDate }}
                     <br>
-                    <span>on </span><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+                    <span>on </span><time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "Jan 2, 2006" }}</time>
                 {{- end }}
             </div>
         {{ end }}
