@@ -17,18 +17,24 @@ theme = 'tale'
         name = "About"
         title = "About"
         url = "/about/"
+        weight = 1
     [[menu.main]]
+        identifier = "tags"
         name = "Tags"
+        title = "Tags"
         url = "/tags/"
+        weight = 2
     [[menu.main]]
         name = "GitHub"
         url = "https://github.com/Ryank90"
+        weight = 3
         [menu.main.params]
             target = "_blank"
             rel = "noopener"
     [[menu.main]]
         name = "Linkedin"
         url = "https://www.linkedin.com/in/ryank90"
+        weight = 4
         [menu.main.params]
             target = "_blank"
             rel = "noopener"

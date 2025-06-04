@@ -1,8 +1,8 @@
 <ul>
     {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
+    {{ range .Site.Menus.main.ByWeight }}
         <li>
-            <a href="{{ .URL }}" {{ with .Params.target }}target="{{ . }}"{{ end }} {{ with .Params.rel }}rel="{{ . }}"{{ end }}>
+            <a href="{{ .URL }}" {{ if .Params.target }}target="{{ .Params.target }}"{{ end }} {{ if .Params.rel }}rel="{{ .Params.rel }}"{{ end }}>
                 {{ .Pre }}
                 <span>{{ .Name }}</span>
                 {{ .Post }}
