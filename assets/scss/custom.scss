@@ -271,30 +271,31 @@ ul li {
 
 .tag-title {
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     color: var(--primary);
-}
-
-.tag-posts {
-    margin-left: 1rem;
 }
 
 .tag-post {
     display: flex;
     align-items: baseline;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     gap: 1rem;
+    padding-left: 1rem;
 
     .post-date {
-        color: var(--text-secondary);
-        font-size: 0.9rem;
-        min-width: 100px;
+        color: #000 !important;
+        font-size: 16px;
+        min-width: 110px;
     }
 
     .post-title {
+        font-family: "Libre Baskerville", "Times New Roman", Times, serif;
         color: var(--text-color);
         text-decoration: none;
-        font-size: 0.9rem;
+        font-size: 16px;
+        margin: 0;
+        text-align: left;
 
         &:hover {
             color: var(--primary);
