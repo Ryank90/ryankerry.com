@@ -5,7 +5,7 @@ date: 2025-02-15T10:17:57+01:00
 draft: false
 ---
 
-{{< figure src="/images/Next4.webp" alt="Ryan Kerry" class="w-full mx-0 mb-40" >}}
+{{< figure src="/images/next-optimised.webp" alt="Ryan Kerry" class="w-full mx-0 mb-40" >}}
 
 Hey folks, I am Ryan - I am a software engineering leader, currently serving as VP of Infrastructure at {{< extlink text="ESL FACEIT Group" url="https://eslfaceitgroup.com/" >}}, where I lead teams across infrastructure, security, and reliability. Before that, I was Senior Director of Engineering at {{< extlink text="Unity" url="https://unity.com/" >}}, and Global CTO at {{< extlink text="Lush" url="https://www.lush.com/" >}} alongside a few other past roles in technology.
 

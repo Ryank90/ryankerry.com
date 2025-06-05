@@ -33,6 +33,7 @@
                 {{ range .Params.tags }}
                 <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="post-tag">{{ strings.FirstUpper . }}</a>
                 {{ end }}
+
             </div>
             {{ end }}
         {{ end }}
