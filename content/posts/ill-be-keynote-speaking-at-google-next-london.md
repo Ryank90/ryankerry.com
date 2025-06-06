@@ -25,27 +25,27 @@ From late-night deployments to sprint reviews on very little sleep, our team del
 
 ## Watch the Talks
 
-### 🗓 Day 1 Keynote – Google NEXT London 2017
+### Day 1 Keynote – Google NEXT London 2017
 
 I joined Brian Stevens on stage to discuss how we delivered this game-changing migration.
 
-▶️ Watch from 1:02:00:
+Watch from 1:02:00:
 
-[![Ryan Kerry speaking at Google](http://img.youtube.com/vi/dIb3vHKh8Kg/0.jpg)](http://www.youtube.com/watch?v=dIb3vHKh8Kg "Ryan Kerry speaking at Google")
+[![Ryan Kerry speaking at Google](http://img.youtube.com/vi/dIb3vHKh8Kg/0.jpg "left-align")](http://www.youtube.com/watch?v=dIb3vHKh8Kg "Ryan Kerry speaking at Google - Keynote")
 
 
-### 🗓 Day 2 Deep Dive – From Idea to Execution
+### Day 2 Deep Dive – From Idea to Execution
 
 Alongside Google and Clarinet, I shared the behind-the-scenes detail—from concept through delivery, including all the bumps along the way.
 
-▶️ Full session here:
+Full session here:
 
-[![Ryan Kerry speaking at Google](http://img.youtube.com/vi/cmpM5QPGkAE/0.jpg)](http://www.youtube.com/watch?v=cmpM5QPGkAE "Ryan Kerry speaking at Google")
+[![Ryan Kerry speaking at Google](http://img.youtube.com/vi/cmpM5QPGkAE/0.jpg "left-align")](http://www.youtube.com/watch?v=cmpM5QPGkAE "Ryan Kerry speaking at Google - Session")
 
 ## Get the Slides
 
 Interested in the technical details and migration plan?
 
-📥 Download the presentation slides here
+Download the presentation slides here
 
 If you’ve got questions about the migration, the strategy behind it, or the technologies we used—feel free to drop a comment below or reach out directly. Always happy to share insights and lessons learned.
