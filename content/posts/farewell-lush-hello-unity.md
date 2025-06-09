@@ -5,7 +5,7 @@ type: "posts"
 draft: false
 summary: "After four and a half incredible years, today marks the end of my journey at Lush. What started as a small, tight-knit team of just four engineers within the Poole headquarters grew into a technology powerhouse of over 70 talented individuals globally delivering business impact."
 author: "Ryan Kerry"
-tags: ["career", "personal", "change"]
+tags: ["career", "personal"]
 ---
 
 After four and a half incredible years, today marks the end of my journey at Lush. What started as a small, tight-knit team of just four engineers within the Poole headquarters grew into a technology powerhouse of over 70 talented individuals globally delivering business impact.

@@ -5,6 +5,7 @@ type: "posts"
 draft: false
 summary: "I'm thrilled to have taken the stage at Google NEXT 2017 in London, joining Google Cloud CTO Brian Stevens during the Day 1 keynote to share the story of Lush’s rapid migration to Google Cloud - completed in just 22 days."
 author: "Ryan Kerry"
+tags: ["public speaking", "personal", "conference"]
 ---
 
 I was thrilled to take the stage at Google NEXT 2017 in London, joining Google Cloud CTO Brian Stevens during the Day 1 keynote to share the story of Lush’s record-breaking 22-day global migration to Google Cloud.

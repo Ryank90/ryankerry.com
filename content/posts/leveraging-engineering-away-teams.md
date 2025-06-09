@@ -1,5 +1,5 @@
 ---
-title: "Use engineering away teams to drive collaboration and innovation in global organisations"
+title: "Engineering away teams to drive collaboration and innovation in global organisations"
 date: 2022-10-10T12:06:36+01:00
 type: "posts"
 draft: false
