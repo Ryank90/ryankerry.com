@@ -1,6 +1,6 @@
 ---
 title: "Leading effective meetings"
-date: 2022-10-10T12:06:36+01:00
+date: 2022-06-23T12:06:36+01:00
 type: "posts"
 draft: false
 summary: "Meetings are an essential part of any engineering organisation. They provide a platform for collaboration, decision-making, and sharing information. However, not all meetings are productive, and ineffective meetings can be a significant waste of time and resources."
