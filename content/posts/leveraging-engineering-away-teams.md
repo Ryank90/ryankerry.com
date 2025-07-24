@@ -2,7 +2,7 @@
 title: "Engineering away teams to drive collaboration and innovation in global organisations"
 date: 2022-08-02T12:06:36+01:00
 type: "posts"
-draft: false
+draft: true
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a leo felis. Maecenas ut felis at felis mattis varius. Duis scelerisque placerat lorem at egestas. Morbi finibus nulla non commodo tempus."
 author: "Ryan Kerry"
 tags: ["leadership", "management", "engineering"]

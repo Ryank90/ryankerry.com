@@ -7,32 +7,33 @@ draft: false
 
 {{< figure src="/images/next-optimised.webp" alt="Ryan Kerry" class="w-full mx-0 mb-40" >}}
 
-Hey folks, I am Ryan - I am a software engineering leader, currently serving as VP of Infrastructure at {{< extlink text="ESL FACEIT Group" url="https://eslfaceitgroup.com/" >}}, where I lead teams across infrastructure, security, and reliability. Before that, I was Senior Director of Engineering at {{< extlink text="Unity" url="https://unity.com/" >}}, and Global CTO at {{< extlink text="Lush" url="https://www.lush.com/" >}} alongside a few other past roles in technology.
+Hey folks - I’m Ryan Kerry, a software engineering leader with experience building and leading teams across engineering, infrastructure, and security. Over the years, I’ve worked in a range of environments, from fast-paced startups to global technology organisations, helping build impactful products and resilient platforms. My past roles haved included: VP of Infrastructure at {{< extlink text="ESL FACEIT Group" url="https://eslfaceitgroup.com/" >}}, Senior Director of Engineering at {{< extlink text="Unity" url="https://unity.com/" >}}, and Global Head of Technology at {{< extlink text="Lush Cosmetics" url="https://www.lush.com/" >}}.
 
-This blog is my digital brain dump: expect thoughts on technical leadership, infrastructure strategy, AI in engineering orgs, and lessons from the edge of scale.
+This is where I unpack what I’ve learned from scaling infrastructure and leading teams to exploring how AI is reshaping modern engineering.
 
 ---
 
 ## How can I help?
 
-I'm open to:
+I’m open to a range of opportunities where I can support others through experience, perspective, and practical guidance:
 
-- Advisory roles for scaling startups or growing tech orgs where infrastructure, developer velocity, or security maturity are critical enablers.
-- Non-Executive Director (NED) positions, especially where technical oversight and strategic growth support are needed at board level.
+- Mentorship, coaching, or 1:1 sessions with engineering leaders navigating growth, scale, or transitions in their careers.
+- Advisory roles with startups or growing tech organisations where infrastructure, developer experience, or security maturity are critical to success.
+- Non-Executive Director (NED) positions, particularly where technical oversight and strategic guidance are valued at the board level.
 
-If you're scaling and could use a fresh perspective or a critical friend on your journey - let's talk.
+If you’re scaling and would benefit from a sounding board or a critical friend - let’s talk. You can connect with me on {{< extlink text="Linkedin" url="https://www.linkedin.com/in/ryank90/" >}} or email me at rk@evolvingcomplexity.com.
 
 ---
 
 ## Speaking
 
-I enjoy stepping on stage and unpacking complex ideas with energy and a bit of humour. Here are a few highlights:
+I enjoy stepping on stage and unpacking complex ideas with energy and a bit of humour. Here are a few of the highlights so far:
 
-- **March, 2024:** Game Developer Network (GDC): Cloudflare XXX.
-- **XX, 20XX:** Google Lighthouse - London: XXX.
-- **XX, 20XX:** Retail Expo - London (Session): XX.
-- **March, 2018:** Google Next - San Francisco (Keynote): XXX.
-- **April, 2017:** Google Next - London (Session): XXXX.
-- **April, 2017:** Google Next - London (Keynote): 22 Day Lush Migration to the cloud.
+- **March, 2024:** Game Developer Conference (Session): How to secure the competitive gaming ecosystem (Cloudflare sponsored).
+- **September, 2018:** Retail Expo - London (Session): How we are building technology for good within the retail space.
+- **March, 2018:** Google Next - San Francisco (Keynote): Leveraging Google Cloud to build technology for good.
+- **May, 2017:** Google Next - London (Session): Deep-dive Lush migration to Google Cloud.
+- **May, 2017:** Google Next - London (Keynote): 22 Day Lush Migration to the cloud.
+- **March, 2017:** Google Lighthouse - London: 22 Day Lush Migration to the cloud.
 
-More to come. I tend to say yes when the topic is right and the tea is good.
+I’m always open to speaking opportunities that align with my experience and interests.

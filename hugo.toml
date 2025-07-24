@@ -1,8 +1,8 @@
 baseURL = '/'
 languageCode = 'en-gb'
-title = 'Evolving Complexity'
+title = 'Evolving Complexity.'
 
-googleAnalytics = ""
+googleAnalytics = "11531891782"
 disqusShortname = ""
 
 theme = 'tale'
