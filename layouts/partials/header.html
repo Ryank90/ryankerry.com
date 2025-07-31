@@ -1,12 +1,43 @@
 <nav class="nav">
     <div class="nav-container">
-        <a href="{{ relURL "" }}">
+        <a href="{{ relURL "" }}" class="nav-logo">
             {{ if .IsPage }}
                 <h2 class="nav-title">{{ .Site.Title }}</h2>
             {{ else }}
                 <h1 class="nav-title">{{ .Site.Title }}</h1>
             {{ end }}
         </a>
-        {{ partial "header-menu.html" . }}
+        
+        <!-- Burger menu button for mobile -->
+        <button class="burger-menu" id="burger-menu" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <!-- Navigation menu -->
+        <div class="nav-menu" id="nav-menu">
+            {{ partial "header-menu.html" . }}
+        </div>
     </div>
-</nav> 
+</nav>
+
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+    const burgerMenu = document.getElementById('burger-menu');
+    const navMenu = document.getElementById('nav-menu');
+    
+    burgerMenu.addEventListener('click', function() {
+        burgerMenu.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!burgerMenu.contains(event.target) && !navMenu.contains(event.target)) {
+            burgerMenu.classList.remove('active');
+            navMenu.classList.remove('active');
+        }
+    });
+});
+</script> 
