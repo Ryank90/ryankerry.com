@@ -151,9 +151,9 @@ body {
         }
         
         &-title {
-            // Shorten title to "EC." on mobile
+            // Shorten title to "ec." on mobile (lowercase)
             &::after {
-                content: "EC.";
+                content: "ec.";
                 font-size: 1.5rem;
             }
             

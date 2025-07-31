@@ -1,6 +1,6 @@
 baseURL = 'https://evolvingcomplexity.com/'
 languageCode = 'en-gb'
-title = 'Evolving Complexity.'
+title = 'evolving complexity.'
 
 googleAnalytics = "G-7EWLDVZHCV"
 disqusShortname = ""
