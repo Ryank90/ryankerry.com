@@ -38,11 +38,5 @@
 		<link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 		
 		<!-- Menu Script -->
-		{{ $menuScript := resources.Get "scripts/menu.js" }}
-		{{ if $menuScript }}
-			{{ $minified := $menuScript | minify }}
-			<script src="{{ $minified.RelPermalink }}"></script>
-		{{ else }}
-			<script src="{{ "scripts/menu.min.js" | relURL }}"></script>
-		{{ end }}
+		<script src="{{ "scripts/menu.js" | relURL }}"></script>
 	</head> 
