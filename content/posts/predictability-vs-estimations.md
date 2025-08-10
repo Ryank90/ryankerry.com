@@ -1,6 +1,6 @@
 ---
-title: "Measuring predictability vs estimations"
-date: 2025-06-06T13:28:48+01:00
+title: "Predictability vs estimations"
+date: 2025-05-29T13:28:48+01:00
 type: "posts"
 draft: false
 summary: "In many engineering organisations, especially those undergoing agile or delivery transformations, teams still default to traditional metrics like story points, time estimates, or velocity. These methods, often rooted in well-intentioned planning..."

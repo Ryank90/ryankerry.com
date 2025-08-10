@@ -1,5 +1,5 @@
 ---
-title: "Engineering away teams to drive collaboration and innovation in global organisations"
+title: "Away teams"
 date: 2022-08-02T12:06:36+01:00
 type: "posts"
 draft: true

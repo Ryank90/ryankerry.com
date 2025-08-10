@@ -7,7 +7,7 @@ draft: false
 
 {{< figure src="/images/next-optimised.webp" alt="Ryan Kerry" class="w-full mx-0 mb-40" >}}
 
-Hey folks - I’m Ryan Kerry, a software engineering leader with experience building and leading teams across engineering, infrastructure, and security. Over the years, I’ve worked in a range of environments, from fast-paced startups to global technology organisations, helping build impactful products and resilient platforms. My past roles haved included: VP of Infrastructure at {{< extlink text="ESL FACEIT Group" url="https://eslfaceitgroup.com/" >}}, Senior Director of Engineering at {{< extlink text="Unity" url="https://unity.com/" >}}, and Global Head of Technology at {{< extlink text="Lush Cosmetics" url="https://www.lush.com/" >}}.
+Hey folks - I’m Ryan Kerry, a software engineering leader with experience building and leading teams across engineering, infrastructure, and security. Over the years, I’ve worked in a range of environments, from fast-paced startups to global technology organisations, helping build impactful products and resilient platforms. My past roles haved included: VP of Engineering at {{< extlink text="ESL FACEIT Group" url="https://eslfaceitgroup.com/" >}}, Senior Director of Engineering at {{< extlink text="Unity" url="https://unity.com/" >}}, and Global Head of Technology at {{< extlink text="Lush Cosmetics" url="https://www.lush.com/" >}}.
 
 This is where I unpack what I’ve learned from scaling infrastructure and leading teams to exploring how AI is reshaping modern engineering.
 

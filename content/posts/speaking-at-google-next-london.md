@@ -1,5 +1,5 @@
 ---
-title: "I'll be keynote speaking at Google Next London"
+title: "Keynote speaking at Google Next London"
 date: 2017-04-20T13:28:48+01:00
 type: "posts"
 draft: false

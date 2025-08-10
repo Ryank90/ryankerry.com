@@ -1,6 +1,6 @@
 ---
-title: "Learnings from establishing a modern security organisation"
-date: 2025-06-06T13:28:48+01:00
+title: "Pivoting into security"
+date: 2025-04-17T13:28:48+01:00
 type: "posts"
 draft: true
 summary: "Building and evolving the security organisation at EFG has been one of the most challenging and rewarding parts of my role especially as it was new territory for me, and pushed me to grow well beyond my comfort zone."

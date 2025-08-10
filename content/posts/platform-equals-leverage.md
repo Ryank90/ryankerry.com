@@ -1,5 +1,5 @@
 ---
-title: "Platform Engineering as a business lever, not just a cost centre"
+title: "Platform = leverage"
 date: 2024-12-06T13:28:48+01:00
 type: "posts"
 draft: true
