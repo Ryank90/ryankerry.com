@@ -43,6 +43,6 @@
 			{{ $minified := $menuScript | minify }}
 			<script src="{{ $minified.RelPermalink }}"></script>
 		{{ else }}
-			<script src="{{ "scripts/menu.js" | relURL }}"></script>
+			<script src="{{ "scripts/menu.min.js" | relURL }}"></script>
 		{{ end }}
 	</head> 
