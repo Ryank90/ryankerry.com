@@ -14,4 +14,4 @@ jobs:
       with:
         firebaseServiceAccount: ${{ secrets.firebase_service_account }}
         projectId: ${{ secrets.firebase_project_name }}
-        hugoParams: --gc --minify
+        hugoParams: --gc --minify --buildDrafts=false
