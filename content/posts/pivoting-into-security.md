@@ -8,7 +8,7 @@ author: "Ryan Kerry"
 tags: ["security", "organisation", "leadership"]
 ---
 
-Building and evolving the security organisation at EFG has been one of the most challenging and rewarding parts of my role especially as it was new territory for me, and pushed me to grow well beyond my comfort zone.
+XBuilding and evolving the security organisation at EFG has been one of the most challenging and rewarding parts of my role especially as it was new territory for me, and pushed me to grow well beyond my comfort zone.
 
 When I stepped into this space, I knew that shaping a modern security capability would be as much about mindset and culture as about tools and controls. Security can too easily become isolated, process-heavy, and treated as "someone else’s problem." I’ve been working hard, alongside a talented team, to change that.
 
