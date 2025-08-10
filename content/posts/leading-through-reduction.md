@@ -2,7 +2,7 @@
 title: "Leading through reductions"
 date: 2025-02-02T12:06:36+01:00
 type: "posts"
-draft: true
+draft: false
 summary: "One of the most difficult responsibilities in senior leadership is guiding your team and organisation through reductions. These moments cut deeper than any product delay or operational challenge because they impact people’s livelihoods, trust, and sense of belonging..."
 author: "Ryan Kerry"
 tags: ["leadership", "management", "engineering"]
