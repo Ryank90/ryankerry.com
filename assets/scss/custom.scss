@@ -151,9 +151,9 @@ body {
         }
         
         &-title {
-            // Shorten title to "ec." on mobile (lowercase)
+            // Shorten title to "EC" on mobile (uppercase)
             &::after {
-                content: "ec.";
+                content: "EC";
                 font-size: 1.5rem;
             }
             
@@ -295,6 +295,13 @@ body {
     &:hover {
         text-decoration: none;
     }
+}
+
+// Ensure catalogue title font-size is applied with high specificity
+.catalogue .catalogue-title,
+.catalogue-item .catalogue-title,
+.catalogue-title {
+    font-size: 1.8rem !important;
 }
 
 // Bullet point spacing
