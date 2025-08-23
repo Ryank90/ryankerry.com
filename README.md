@@ -2,6 +2,6 @@
 
 # Evolving Complexity (evolvingcomplexity.com)
 
-Personal Blog. This is where I unpack what I’ve learned from scaling technology and leading teams to exploring how AI is reshaping modern engineering.
+Evolving Complexity is my Personal Blog. This is where I unpack what I’ve learned from scaling technology and leading teams to exploring how AI is reshaping modern engineering.
 
 Built using the Hugo framework.
