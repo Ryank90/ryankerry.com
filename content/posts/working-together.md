@@ -2,7 +2,7 @@
 title: "Working together"
 date: 2025-08-12T13:28:48+01:00
 type: "posts"
-draft: true
+draft: false
 summary: "Cross-functional collaboration in an engineering organisation is rarely a “nice to have” it’s the operating model. Engineering doesn’t deliver value in isolation, and neither do Product, Design, Marketing and Commercial. The best outcomes happen when these functions..."
 author: "Ryan Kerry"
 tags: ["collaboration", "leadership", "management"]
