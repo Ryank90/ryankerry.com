@@ -86,6 +86,12 @@ blockquote {
         flex-wrap: wrap;
         gap: 0.5rem;
         justify-content: center;
+        
+        // Add vertical spacing for wrapped tags on mobile
+        @media (max-width: 768px) {
+            gap: 0.5rem 0.5rem; // horizontal and vertical gap
+            align-content: flex-start;
+        }
     }
 
     // Link styling scoped to post content
@@ -127,6 +133,12 @@ blockquote {
     flex-wrap: wrap;
     gap: 0.5rem;
     justify-content: center;
+    
+    // Add vertical spacing for wrapped tags on mobile
+    @media (max-width: 768px) {
+        gap: 0.5rem 0.5rem; // horizontal and vertical gap
+        align-content: flex-start;
+    }
 }
 
 .post-tag,
