@@ -1,6 +1,6 @@
 ---
 title: "Farewell EFG, hello Runware"
-date: 2025-01-11T12:06:36+01:00
+date: 2025-11-01T12:06:36+01:00
 type: "posts"
 draft: false
 summary: "After an incredible journey at ESL FACEIT Group, I have taken the decision to move on and begin a new chapter. I am joining Runware to lead their engineering organisation, and it is a move I am genuinely excited about."
