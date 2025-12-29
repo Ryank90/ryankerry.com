@@ -41,7 +41,7 @@ enableRobotsTXT = true
             rel = "noopener"
 
 [params]
-    paginate = 8
+    paginate = 10
 
 [params.Author]
     name = "Ryan Kerry"
