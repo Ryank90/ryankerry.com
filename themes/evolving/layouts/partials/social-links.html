@@ -1,0 +1,8 @@
+<div class="social-links">
+    {{ range .Site.Menus.right }}
+        <a href="{{ .URL }}" class="social-link" {{ if .Params.target }}target="{{ .Params.target }}"{{ end }} {{ if .Params.rel }}rel="{{ .Params.rel }}"{{ end }}>
+            {{ if eq .Name "GitHub" }}github.com/ryank90{{ else if eq .Name "Linkedin" }}linkedin.com/in/ryank90{{ else }}{{ .URL }}{{ end }}
+        </a>
+    {{ end }}
+    <a href="mailto:rk@evolvingcomplexity.com" class="social-link">mailto:rk</a>
+</div>

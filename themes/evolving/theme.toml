@@ -1,0 +1,12 @@
+name = "evolving"
+license = "MIT"
+licenselink = "https://github.com/Ryank90/ryankerry.com/blob/main/LICENSE"
+description = "A minimalist dark theme inspired by boz."
+tags = ["blog", "minimal", "dark"]
+features = ["dark-mode"]
+min_version = "0.41.0"
+
+[author]
+  name = "Ryan Kerry"
+  homepage = "https://evolvingcomplexity.com"
+

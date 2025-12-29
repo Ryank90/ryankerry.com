@@ -10,18 +10,14 @@
             </aside>
             
             <main class="content">
-                <div class="post">
-                    <h1 class="post-title">404</h1>
-                    <div class="post-content">
-                        <p>Sorry, the page you're looking for can't be found.</p>
-                        <p><a href="{{ "/" | relURL }}">Go back home</a></p>
-                    </div>
-                </div>
+                {{ block "main" . }}{{ end }}
             </main>
             
             <aside class="sidebar-right">
                 {{ partial "social-links.html" . }}
             </aside>
         </div>
+        <script src="{{ "js/colors.js" | relURL }}"></script>
     </body>
 </html>
+

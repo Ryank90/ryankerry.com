@@ -1,0 +1,11 @@
+<nav class="nav-links">
+    {{ range .Site.Menus.left }}
+        {{ $isActive := false }}
+        {{ if eq .Identifier "index" }}
+            {{ $isActive = $.IsHome }}
+        {{ else }}
+            {{ $isActive = or (eq $.RelPermalink .URL) ($.IsMenuCurrent "left" .) ($.HasMenuCurrent "left" .) }}
+        {{ end }}
+        <a href="{{ .URL }}" class="nav-link{{ if $isActive }} active{{ end }}">{{ .Name }}</a>
+    {{ end }}
+</nav>

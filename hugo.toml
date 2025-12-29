@@ -5,7 +5,7 @@ title = 'Evolving Complexity.'
 googleAnalytics = "G-7EWLDVZHCV"
 disqusShortname = ""
 
-theme = 'tale'
+theme = 'evolving'
 enableRobotsTXT = true
 
 [permalinks]
@@ -13,30 +13,39 @@ enableRobotsTXT = true
     page = "/:title/"
 
 [menu]
-    [[menu.main]]
+    # Left navigation menu
+    [[menu.left]]
+        identifier = "index"
+        name = "index"
+        title = "Index"
+        url = "/"
+        weight = 1
+    [[menu.left]]
         identifier = "about"
-        name = "About"
+        name = "about"
         title = "About"
         url = "/about/"
-        weight = 1
-    [[menu.main]]
+        weight = 2
+    [[menu.left]]
         identifier = "tags"
-        name = "Tags"
+        name = "tags"
         title = "Tags"
         url = "/tags/"
-        weight = 2
-    [[menu.main]]
+        weight = 3
+    
+    # Right navigation menu (social/contact links)
+    [[menu.right]]
         name = "GitHub"
         url = "https://github.com/Ryank90"
-        weight = 3
-        [menu.main.params]
+        weight = 1
+        [menu.right.params]
             target = "_blank"
             rel = "noopener"
-    [[menu.main]]
+    [[menu.right]]
         name = "Linkedin"
         url = "https://www.linkedin.com/in/ryank90"
-        weight = 4
-        [menu.main.params]
+        weight = 2
+        [menu.right.params]
             target = "_blank"
             rel = "noopener"
 
