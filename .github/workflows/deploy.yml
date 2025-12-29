@@ -1,4 +1,7 @@
-on: [push]
+on:
+  push:
+    branches:
+      - main
 name: Deploy Hugo to Firebase
 permissions:
   contents: read
