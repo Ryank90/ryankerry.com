@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
     {{ partial "head.html" . }}
-    <body>
+    {{ $isPost := and .IsPage (eq .Section "posts") }}
+    {{ if $isPost }}
+        {{ $slug := .File.BaseFileName }}
+        {{ $colors := slice "blue" "pink" "green" "gold" "red" }}
+        {{ $idx := mod (len $slug) (len $colors) }}
+        {{ $colorClass := index $colors $idx }}
+        <body class="theme-{{ $colorClass }}">
+    {{ else }}
+        <body>
+    {{ end }}
         <div class="top-line"></div>
         <div class="container">
             <aside class="sidebar-left">

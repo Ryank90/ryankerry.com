@@ -1,15 +1,44 @@
 {{ define "main" }}
+{{ $slug := .File.BaseFileName }}
+{{ $colors := slice "blue" "pink" "green" "gold" "red" }}
+{{ $idx := mod (len $slug) (len $colors) }}
+{{ $colorClass := index $colors $idx }}
 {{ if eq .Type "page" }}
-<article class="post">
+<article class="post post--{{ $colorClass }}">
     <div class="post-content">
         {{ .Content }}
     </div>
 </article>
 {{ else }}
-<article class="post">
+<article class="post post--{{ $colorClass }}">
+    {{ if .PublishDate }}
+    <div class="post-date-top">
+        {{ .PublishDate.Format "January 2, 2006" }}
+    </div>
+    {{ end }}
+    
     <h1 class="post-title">{{ .Title }}</h1>
+    
+    {{ if .Params.tags }}
+    <div class="post-tags">
+        {{ range .Params.tags }}
+        <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="post-tag">{{ . }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+    
     <div class="post-content">
         {{ .Content }}
+    </div>
+    
+    <div class="post-share">
+        <span class="share-label">Share:</span>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer" class="share-link share-linkedin" aria-label="Share on LinkedIn">
+            LinkedIn
+        </a>
+        <a href="https://twitter.com/intent/tweet?url={{ .Permalink | absURL }}&text={{ .Title | urlquery }}" target="_blank" rel="noopener noreferrer" class="share-link share-twitter" aria-label="Share on X (Twitter)">
+            X
+        </a>
     </div>
 </article>
 {{ end }}

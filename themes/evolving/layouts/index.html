@@ -1,8 +1,12 @@
 {{ define "main" }}
 <div class="post-list">
     {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ $colors := slice "blue" "pink" "green" "gold" "red" }}
     {{ range $posts }}
-        <a href="{{ .RelPermalink }}" class="post-link">{{ .Title }}</a>
+        {{ $slug := .File.BaseFileName }}
+        {{ $idx := mod (len $slug) (len $colors) }}
+        {{ $colorClass := index $colors $idx }}
+        <a href="{{ .RelPermalink }}" class="post-link post-link--{{ $colorClass }}">{{ .Title }}</a>
     {{ end }}
 </div>
 {{ end }}

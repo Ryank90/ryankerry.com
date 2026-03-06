@@ -1,12 +1,16 @@
 {{ define "main" }}
+{{ $slug := .File.BaseFileName }}
+{{ $colors := slice "blue" "pink" "green" "gold" "red" }}
+{{ $idx := mod (len $slug) (len $colors) }}
+{{ $colorClass := index $colors $idx }}
 {{ if eq .Type "page" }}
-<article class="post">
+<article class="post post--{{ $colorClass }}">
     <div class="post-content">
         {{ .Content }}
     </div>
 </article>
 {{ else }}
-<article class="post">
+<article class="post post--{{ $colorClass }}">
     <h1 class="post-title">{{ .Title }}</h1>
     <div class="post-content">
         {{ .Content }}
