@@ -5,6 +5,7 @@ type: "posts"
 draft: false
 summary: "Last month at the Game Developers Conference (GDC), I had the privilege of joining the team from Cloudflare to speak about a topic close to my heart: Zero Trust and its role in supporting the competitive gaming ecosystem."
 author: "Ryan Kerry"
+tags: ["public speaking", "personal", "conference"]
 ---
 
 Last month at the Game Developers Conference (GDC), I had the privilege of joining the team from Cloudflare to speak about a topic close to my heart: Zero Trust and its role in supporting the competitive gaming ecosystem.

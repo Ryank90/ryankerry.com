@@ -21,6 +21,6 @@ Some personal highlights from this journey include:
 
 As I reflect on this chapter, I am deeply grateful for the opportunities, the challenges, and above all, the people I had the privilege to work alongside. I am proud of what we accomplished together and excited to see where the team takes it next.
 
-Looking ahead, I am thrilled to be joining ESL FACEIT Group as VP of Engineering focued on Infrastructure, where I will help evolve and scale the platforms and services that power some of the world’s largest competitive gaming experiences.
+Looking ahead, I am thrilled to be joining ESL FACEIT Group as VP of Engineering focused on Infrastructure, where I will help evolve and scale the platforms and services that power some of the world’s largest competitive gaming experiences.
 
 To everyone at Unity - thank you for the trust, collaboration and shared ambition.

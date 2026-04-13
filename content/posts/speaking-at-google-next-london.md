@@ -3,7 +3,7 @@ title: "Keynote speaking at Google Next London"
 date: 2017-04-20T13:28:48+01:00
 type: "posts"
 draft: false
-summary: "I'm thrilled to have taken the stage at Google NEXT 2017 in London, joining Google Cloud CTO Brian Stevens during the Day 1 keynote to share the story of Lush’s rapid migration to Google Cloud - completed in just 22 days."
+summary: "I am thrilled to have taken the stage at Google NEXT 2017 in London, joining Google Cloud CTO Brian Stevens during the Day 1 keynote to share the story of Lush’s rapid migration to Google Cloud - completed in just 22 days."
 author: "Ryan Kerry"
 tags: ["public speaking", "personal", "conference"]
 ---
@@ -20,7 +20,7 @@ After attending one of the early Google NEXT events in London (2016) with one of
 
 ## The Migration Challenge
 
-Once the decision was made, we had 28 days to complete the migration before the existing contract expired. Within just a few days, we’d contacted Google, secured the right partners, signed contracts, planned the roadmap and even started writing code. What followed was an intense, fast-paced, and incredibly rewarding project.
+Once the decision was made, we had 28 days to complete the migration before the existing contract expired. Within just a few days, we had contacted Google, secured the right partners, signed contracts, planned the roadmap and even started writing code. What followed was an intense, fast-paced, and incredibly rewarding project.
 
 From late-night deployments to sprint reviews on very little sleep, our team delivered a full migration in just 22 days, supporting global e-commerce operations and setting a new bar for cloud transformations.
 
