@@ -8,7 +8,7 @@ author: "Ryan Kerry"
 tags: ["leadership", "management", "engineering"]
 ---
 
-In today's fast-paced and interconnected world, businesses need to be agile and adaptable to stay competitive. Whether you're developing a new software application, constructing a new building, or manufacturing a new product, you need access to the right skills, expertise, and resources to succeed. That's where engineering away teams come in. In this post, we'll explore the benefits and challenges of engineering away teams, and share best practices and case studies to help you optimise your global workforce.
+In today's fast-paced and interconnected world, businesses need to be agile and adaptable to stay competitive. Whether you are developing a new software application, constructing a new building, or manufacturing a new product, you need access to the right skills, expertise, and resources to succeed. That is where engineering away teams come in. In this post, we will explore the benefits and challenges of engineering away teams, and share best practices and case studies to help you optimise your global workforce.
 
 ## What are Engineering Away Teams?
 
@@ -26,7 +26,7 @@ Enhanced Collaboration and Knowledge Sharing - Engineering away teams can help y
 
 ## Challenges of Engineering Away Teams
 
-Communication and Coordination Issues - Engineering away teams may face challenges in communicating and coordinating with your in-house team due to language, cultural, or technical barriers. They may also struggle to align their goals and objectives with yours if they don't have a clear understanding of your company's vision and values.
+Communication and Coordination Issues - Engineering away teams may face challenges in communicating and coordinating with your in-house team due to language, cultural, or technical barriers. They may also struggle to align their goals and objectives with yours if they do not have a clear understanding of your company's vision and values.
 
 Cultural and Language Barriers - Engineering away teams may encounter cultural and language barriers that can affect their ability to work effectively with your clients or partners. They may need to adapt to different work styles, norms, and expectations that may vary from country to country.
 
@@ -56,5 +56,5 @@ In the construction industry, Skanska has a mobile engineering team that travels
 
 ## Conclusion
 
-Engineering away teams can be a powerful tool for businesses looking to enhance their global competitiveness and innovation. By leveraging specialized expertise, resources, and technologies, and fostering a culture of collaboration and knowledge sharing, engineering away teams can help businesses achieve their goals faster and more efficiently. However, to realize their full potential, businesses need to overcome the challenges of communication, culture, technology, and security, and adopt best practices and methodologies that can optimize their global workforce.
+Engineering away teams can be a powerful tool for businesses looking to enhance their global competitiveness and innovation. By leveraging specialized expertise, resources, and technologies, and fostering a culture of collaboration and knowledge sharing, engineering away teams can help businesses achieve their goals faster and more efficiently. However, to realise their full potential, businesses need to overcome the challenges of communication, culture, technology, and security, and adopt best practices and methodologies that can optimise their global workforce.
 

@@ -22,4 +22,4 @@ Collaboration is another mode that becomes essential in complex matrix organisat
 
 Finally, transformational leadership is required for the most significant shifts: re-architecting a core platform, driving AI adoption across an organisation, or re-designing operating models for scale. These are moments when leaders must set a new standard and challenge the status quo. The energy and persistence required are considerable, and so is the risk of overuse. An organisation cannot live in a permanent transformation state without creating fatigue and instability.
 
-I've found the most effective leaders are not defined by a single style. They are defined by their ability to read the organisation’s maturity, the context of the decision, and the impact for the business, and then to adapt their approach.
+I have found the most effective leaders are not defined by a single style. They are defined by their ability to read the organisation’s maturity, the context of the decision, and the impact for the business, and then to adapt their approach.

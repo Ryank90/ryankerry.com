@@ -32,6 +32,6 @@ Timeboxing is the practice of setting a specific time limit for a meeting. This 
 
 ### Follow up after the meeting
 
-After the meeting, it's essential to follow up with attendees to ensure that the action items are being addressed. This follow-up can be done through a summary email or through internal communication tools like Slack. It's also essential to review the meeting's effectiveness and make any necessary adjustments for future meetings.
+After the meeting, it is essential to follow up with attendees to ensure that the action items are being addressed. This follow-up can be done through a summary email or through internal communication tools like Slack. It is also essential to review the meeting's effectiveness and make any necessary adjustments for future meetings.
 
 In conclusion, effective meetings are an essential part of any engineering organisation. By setting clear objectives, inviting the right people, creating an agenda, using technology, timeboxing the meeting, and following up, your meetings will be more productive and efficient. These practices will not only save time and resources but also contribute to a positive work culture where everyone is valued and heard.
