@@ -25,10 +25,12 @@ If you’re scaling and would benefit from a sounding board or a critical friend
 
 ---
 
-## Speaking
+## Speaking & Events
 
-I enjoy stepping on stage and unpacking complex ideas with energy and a bit of humour. Here are a few of the highlights so far:
+I enjoy speaking about the engineering challenges behind building and scaling technology, from generative AI and infrastructure to cloud platforms and organisational growth.
 
+- **March 2026:** Together AI, AI Native Conference - San Francisco: Learnings from hyperscale AI startups
+- **February 2026:** BFL Hackathon - London (Session): Building the Future of Generative Media
 - **March, 2024:** Game Developer Conference (Session): How to secure the competitive gaming ecosystem (Cloudflare sponsored).
 - **September, 2018:** Retail Expo - London (Session): How we are building technology for good within the retail space.
 - **March, 2018:** Google Next - San Francisco (Keynote): Leveraging Google Cloud to build technology for good.
