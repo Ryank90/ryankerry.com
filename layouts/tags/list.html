@@ -1,9 +1,6 @@
 {{ define "main" }}
 <main>
-    <div class="post term-list">
-        <h1 class="post-title">{{ .Title }}</h1>
-        <div class="post-line"></div>
-    </div>
+    <h1 class="taxonomy-title">{{ .Title }}</h1>
 
     <div class="tags-list">
         {{ range .Site.Taxonomies.tags }}
@@ -21,4 +18,4 @@
         {{ end }}
     </div>
 </main>
-{{ end }} 
+{{ end }}

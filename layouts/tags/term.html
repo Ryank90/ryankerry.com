@@ -1,9 +1,6 @@
 {{ define "main" }}
 <main>
-    <div class="post term-item">
-        <h1 class="post-title">Tag: {{ .Title }}</h1>
-        <div class="post-line"></div>
-    </div>
+    <h1 class="taxonomy-title">Tag: {{ .Title }}</h1>
 
     <div class="catalogue">
         {{ range .Pages.ByDate.Reverse }}
@@ -25,4 +22,4 @@
         {{ partial "pagination.html" . }}
     </div>
 </main>
-{{ end }} 
+{{ end }}

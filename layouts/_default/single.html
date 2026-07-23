@@ -5,7 +5,11 @@
         {{ partial "toc.html" . }}
     {{ end }}
 
-    <div class="post">
+    {{ if eq .Type "page" }}
+    <h1 class="taxonomy-title">{{ .Title }}</h1>
+    {{ end }}
+
+    <div class="post{{ if eq .Type "page" }} page-section{{ end }}">
         {{ if eq .Type "posts" }}
             <div class="post-info">
                 <span>Written by </span>
@@ -55,4 +59,4 @@
     {{ end }}
 </main>
 
-{{ end }} 
+{{ end }}

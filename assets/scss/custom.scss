@@ -206,10 +206,20 @@ body {
     }
 }
 
-// Tag page styling
+// Page headings — left-aligned in the centred content column.
+// Top spacing matches the theme .post padding (3rem).
 .taxonomy-title {
   color: #000000 !important;
-  margin-top: 40px;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  font-size: 2rem;
+  text-align: left;
+}
+
+// Speaking: match the ~2rem gap Writing/Tags get below their titles
+// (from catalogue-item / tag-title spacing).
+.post.page-section {
+  padding-top: 2rem;
 }
 
 // Link styling for content
@@ -450,8 +460,9 @@ ul li {
 
 .term-list,
 .term-item {
-    padding-top: 3rem;
-    padding-bottom: 0rem;
+    // .post already provides 3rem top padding — don't double it
+    padding-top: 0;
+    padding-bottom: 0;
 
     .post-line {
         display: none;
