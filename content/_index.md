@@ -8,18 +8,22 @@ aliases:
 
 {{< figure src="/images/next-optimised.webp" alt="Ryan Kerry" class="w-full mx-0 mb-40" >}}
 
-Hey folks - I’m Ryan Kerry, a software engineering leader with experience building and leading teams across engineering, infrastructure, and security. Over the years, I’ve worked in a range of environments, from fast-paced startups to global technology organisations, helping build impactful products and resilient platforms. My past roles haved included: VP of Engineering at {{< extlink text="ESL FACEIT Group" url="https://eslfaceitgroup.com/" >}}, Senior Director of Engineering at {{< extlink text="Unity" url="https://unity.com/" >}}, and Global Head of Technology at {{< extlink text="Lush Cosmetics" url="https://www.lush.com/" >}}.
+Welcome.
 
-This is where I unpack what I’ve learned from scaling technology and leading teams to exploring how AI is reshaping modern engineering.
+I’m Ryan Kerry, an engineering leader focused on building the organisations and technology platforms behind products that operate at world scale.
 
----
+Today, I’m **Engineering Director** at {{< extlink text="Runware" url="https://www.runware.ai" >}}, where I lead engineering across our generative AI platform. My work centres on building Runware’s serverless compute platform for production AI, with a focus on fast inference, scalable GPU workloads and making complex infrastructure reliable and easy for developers to use.
 
-## How can I help?
+Before Runware, I held executive and senior engineering leadership roles across gaming, developer platforms and global commerce.
 
-I’m open to a range of opportunities where I can support others through experience, perspective, and practical guidance:
+At {{< extlink text="Unity" url="https://unity.com" >}}, I served as **Senior Director of Engineering** and grew the Multiplayer organisation from six engineers to more than 150 globally. I was responsible for a portfolio of more than 13 products supporting a nine-figure business, transforming core services into scalable, self-service developer platforms and integrating acquired companies and technologies into Unity’s wider product ecosystem.
 
-- Mentorship, coaching, or 1:1 sessions with engineering leaders navigating growth, scale, or transitions in their careers.
-- Advisory roles with startups or growing tech organisations where infrastructure, developer experience, or security maturity are critical to success.
-- Non-Executive Director (NED) positions, particularly where technical oversight and strategic guidance are valued at the board level.
+I later served as **VP of Engineering** at {{< extlink text="ESL FACEIT Group" url="https://www.eslfaceitgroup.com" >}}, strengthening the engineering organisation and technology behind one of the world’s largest competitive gaming ecosystems.
 
-If you’re scaling and would benefit from a sounding board or a critical friend - let’s talk. You can connect with me on {{< extlink text="Linkedin" url="https://www.linkedin.com/in/ryank90/" >}} or email me at rk@evolvingcomplexity.com.
+Earlier in my career, I led technology at {{< extlink text="Lush" url="https://www.lush.com" >}}, where I designed and built Drupal’s largest global commerce platform. I also co-founded its R&D division, developing ethical retail hardware and exploring how emerging technologies could improve the retail experience. During that time, I led the migration of Lush’s global commerce platform to Google Cloud in just 22 days.
+
+The industries have changed, but the underlying challenge has remained consistent: how do you build technology that continues to perform as it becomes more distributed, more heavily used and more important to the businesses relying on it?
+
+Today, I apply that experience to production AI. I’m particularly interested in inference performance, GPU infrastructure, distributed systems and the developer platforms that make advanced technology easier to adopt.
+
+Alongside my work, I’m studying for a BSc in Computer Science and Artificial Intelligence with The Open University.
