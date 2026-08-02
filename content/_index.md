@@ -20,7 +20,7 @@ At {{< extlink text="Unity" url="https://unity.com" >}}, I served as **Senior Di
 
 I later served as **VP of Engineering** at {{< extlink text="ESL FACEIT Group" url="https://www.eslfaceitgroup.com" >}}, strengthening the engineering organisation and technology behind one of the world’s largest competitive gaming ecosystems.
 
-Earlier in my career, I led technology at {{< extlink text="Lush" url="https://www.lush.com" >}}, where I designed and built Drupal’s largest global commerce platform. I also co-founded its R&D division, developing ethical retail hardware and exploring how emerging technologies could improve the retail experience. During that time, I led the migration of Lush’s global commerce platform to Google Cloud in just 22 days.
+Earlier in my career, I led technology at {{< extlink text="Lush" url="https://www.lush.com" >}}, where I designed and built {{< extlink text="Drupal’s largest global commerce platform" url="https://new.drupal.org/case-study/lush" >}}. I also co-founded its R&D division, developing ethical retail hardware and exploring how emerging technologies could improve the retail experience. During that time, I led the migration of Lush’s global commerce platform to Google Cloud in just 22 days.
 
 The industries have changed, but the underlying challenge has remained consistent: how do you build technology that continues to perform as it becomes more distributed, more heavily used and more important to the businesses relying on it?
 
